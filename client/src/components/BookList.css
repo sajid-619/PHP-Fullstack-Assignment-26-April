@@ -1,0 +1,32 @@
+.book-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .book-list-container {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .book-list-container {
+      padding: 5px;
+    }
+  
+    .book-item {
+      font-size: 14px;
+    }
+  }
+  

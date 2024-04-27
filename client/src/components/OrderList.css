@@ -1,0 +1,32 @@
+.order-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .order-list-container {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .order-list-container {
+      padding: 5px;
+    }
+  
+    .order-item {
+      font-size: 14px;
+    }
+  }
+  
